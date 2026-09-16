@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Liu Wei’s learning collection: interactive tutorials on generative modeling.">
+  <meta name="description" content="Liu Wei’s learning collection: interactive tutorials on generative modeling and language-model scaling laws.">
   <title>Liu Wei · The learning collection</title>
   <style>
     :root { color-scheme: light; font-family: "Segoe UI", Arial, sans-serif; color: #202b39; background: #f4f5f1; }
@@ -15,6 +15,7 @@
     h1 { font-size: clamp(32px, 6vw, 48px); margin: 12px 0 36px; }
     h2 { font-size: clamp(28px, 5vw, 38px); margin: 12px 0; }
     article { padding: clamp(24px, 5vw, 40px); border: 1px solid #dce4e3; border-radius: 16px; background: #fff; }
+    article + article { margin-top: 24px; }
     p { max-width: 620px; }
     .meta { color: #61716f; font-size: 14px; }
     a { color: #12695f; text-underline-offset: 4px; }
@@ -32,6 +33,13 @@
       <p>How does a cloud of noise become a distribution of data? Build the intuition, follow the mathematics, and explore the answer through interactive experiments.</p>
       <p class="meta">15 lessons · 15 interactive labs · 30 knowledge checks</p>
       <a class="start" href="flow-matching-diffusion.html">Start the course →</a>
+    </article>
+    <article aria-labelledby="scaling-title">
+      <p class="eyebrow">A guided paper reading</p>
+      <h2 id="scaling-title">Scaling laws for language models.</h2>
+      <p>How do model size, data, and compute shape what a language model can learn? Explore Kaplan et al.’s scaling laws, work through the mathematics, and compare the Chinchilla update.</p>
+      <p class="meta">9 chapters · Interactive charts · Worked examples · Knowledge checks</p>
+      <a class="start" href="scaling-laws-tutorial.html">Read the tutorial →</a>
     </article>
   </main>
 </body>
